@@ -14,9 +14,7 @@
   $light-off-opacity: 0.4;
   $speed: 0.5;
 
-  .above-main-container-outlet.welcome-link-banner-connectors {
-    margin-bottom: 0;
-}
+  
 
   .lightrope {
     text-align: center;
@@ -123,6 +121,9 @@
   /* mobile */
   .mobile-view .lightrope {
       margin-top: -36px;
+    .above-main-container-outlet.welcome-link-banner-connectors {
+    margin-bottom: 0;
+}
   }
 } @else {
   .lightrope {

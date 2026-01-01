@@ -18,7 +18,9 @@
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    position: absolute;
+    position: fixed;
+    top: 85px;
+    z-index: 1000;
     left: 0;
     z-index: 1;
     margin: -40px 0 0 0;
@@ -122,18 +124,4 @@
   .lightrope {
     display: none;
   }
-  
-.d-header {
-  position: relative;
 }
-
-.d-header .lightrope {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  margin: 0;
-  z-index: 50;
-}
-
-}
-

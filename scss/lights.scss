@@ -21,7 +21,7 @@
     white-space: nowrap;
     overflow: hidden;
     position: fixed;
-    top: 95px;
+    top: 92px;
     z-index: 1000;
     left: 0;
     z-index: 1;
@@ -120,11 +120,9 @@
 
   /* mobile */
   .mobile-view .lightrope {
-      margin-top: -36px;
-    .above-main-container-outlet.welcome-link-banner-connectors {
-    margin-bottom: 0;
+      margin-top: -32px;
 }
-  }
+  
 } @else {
   .lightrope {
     display: none;
